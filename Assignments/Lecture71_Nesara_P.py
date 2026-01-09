@@ -9,7 +9,7 @@ def showBill():
 
 while True:
     menuName = input("Please Enter Menu :")
-    if(menuName.lower() == "exit"):          #อย่าลืมคิดเคสที่จะเกิดขึ้น
+    if(menuName.lower() == "exit"):         
         break
     else:
         menuPrice = int(input("Price :"))
